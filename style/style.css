@@ -1,0 +1,359 @@
+body {
+	
+}
+
+h1 {
+	text-align: center;
+	color: green;
+}
+
+#content {
+	border: 1px solid black;
+	background-color: #eee;
+	padding: 2em;
+
+}
+
+.btn {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  text-shadow: 1px 1px 3px #666666;
+  -webkit-box-shadow: 0px 1px 3px #666666;
+  -moz-box-shadow: 0px 1px 3px #666666;
+  box-shadow: 0px 1px 3px #666666;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px;
+  text-decoration: none;
+  margin-bottom:10px;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+
+}
+
+.selected {
+   color: red;
+}
+
+#letters {
+	width: 300px;
+	float:right;
+	
+}
+
+#correctWordsStatus {
+	float: right;
+	margin-top: 50px;
+	padding-right: 150px;
+	text-transform: uppercase;
+}
+
+#guess {
+	
+	margin-top: 90px;
+	padding-left: 50px;
+	color: #fff;
+	text-transform: uppercase;
+	background-color: #3498db;
+}
+
+#gameOver {
+	float: right;
+	margin-top: 20px;
+	padding-right: 100px;
+	color: red;
+}
+
+#gameCompleted
+{
+	float: right;
+	margin-top: 20px;
+	padding-right: 100px;
+	color: green;
+}
+
+#questions {
+
+
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  background-color: #37adf6;
+  text-align: center;
+
+}
+
+#questions p {
+  font-size: 20px;
+
+}
+
+#gameStatus {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 16px;
+
+}
+
+#score {
+  text-align: center;
+
+}
+
+#testTitle {
+  text-align: center;
+  color: #37adf6;
+  text-transform: uppercase;
+
+}
+.next {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 880px;
+    cursor: pointer;
+    text-transform: uppercase;
+
+}
+
+.restart {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px; 
+    cursor: pointer;
+    text-transform: uppercase;
+
+}
+
+table{
+  
+}
+table td{
+  
+  width: 320px;
+  height: 220px;
+  border: 1px solid gray;
+  float: left;
+  margin: 10px;
+  background-color: #ccc;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 5em;
+  background-color: #eee;
+  background-repeat: no-repeat;
+}
+table td:hover{
+  cursor: pointer;
+  background-color: #ccc;
+}
+
+
+.sweflag {
+  width: 300px;
+  height: 200px;
+  position: relative;
+  background-color:#006aa7;
+    margin:10px;
+    float:left;
+}
+
+.sweverticalline {
+  position: absolute;
+  left: 85px;
+  width: 30px;
+    height: 200px;
+    background-color: #fecc00;
+}
+.swehorizontalline {
+  position: absolute;
+  top: 85px;
+  width: 300px;
+  height: 30px;
+  background-color: #fecc00;
+}
+
+.finflag {
+  width: 300px;
+  height: 200px;
+  position: relative;
+  background-color:#fff;
+    margin:10px;
+    float:left;
+}
+
+.finverticalline {
+  position: absolute;
+  left: 85px;
+  width: 30px;
+    height: 200px;
+    background-color: #003580;
+}
+.finhorizontalline {
+  position: absolute;
+  top: 85px;
+  width: 300px;
+  height: 30px;
+  background-color: #003580;
+}
+
+.danmarkflag {
+  width: 300px;
+  height: 200px;
+  position: relative;
+  background-color:#C60C30;
+  float:right;
+    margin:10px;
+}
+
+.danmarkverticalline {
+  position: absolute;
+  left: 85px;
+  width: 30px;
+    height: 200px;
+    background-color: #FFFFFF;
+}
+.danmarkhorizontalline {
+  position: absolute;
+  top: 85px;
+  width: 300px;
+  height: 30px;
+  background-color: #FFFFFF;
+}
+
+.canadaflag {
+  position: relative;
+  width: 300px;
+  height: 200px;
+  background: #fff;
+    margin:10px;
+    float:left;
+
+}
+.canadaleft {
+  position: absolute;
+  width: 80px;
+  height: 200px;
+  background-color: #f70202;
+}
+
+.canadaright {
+  position: absolute;
+  left: 220px;
+  width: 80px;
+  height: 200px;
+  background-color: #f70202;
+}
+
+.candaCentreLeaf
+{
+  position: relative;
+  top: 15px;
+  width: 150px;
+    height: 200px;
+    margin: 0 auto;
+    background-image: url(../img/CanadaLeaf.png);
+    background-position: center;
+    background-size: 150px 150px;
+    background-repeat: no-repeat;
+
+}
+
+.afghanistanflag {
+  position: relative;
+  width: 300px;
+  height: 200px;
+  background: #BF0000;
+  margin:10px;
+  float:left;
+    
+
+}
+.afghanistanleft {
+  position: absolute;
+  width: 80px;
+  height: 200px;
+  background-color: #000000;
+}
+
+.afghanistanright {
+  position: absolute;
+  left: 220px;
+  width: 80px;
+  height: 200px;
+  background-color: #009900;
+}
+
+.afghanistancenter
+{
+  position: relative;
+  top: 5px;
+  width: 100px;
+    height: 200px;
+    margin: 0 auto;
+    background-image: url(../img/afg.png);
+    background-position: center;
+    background-size: 101px 100px;
+    background-repeat: no-repeat;
+
+}
+#denflag {
+  padding-top: 200px;
+  float: right;
+
+
+}
+
+#sweflag {
+  padding-top: 200px;
+float: right;
+}
+
+#canflag {
+  float: right;
+}
+
+#afgflag {
+
+
+}
+
+.countries {
+
+  width: 300px;
+  margin: 0 auto;
+}
+
+.unclickable {
+pointer-events: none;
+}
