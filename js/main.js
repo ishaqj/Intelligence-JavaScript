@@ -40,7 +40,14 @@ window.Intelligence = (function() {
          */
 
         "reset": function() {
-
+            var nextBtnContent = document.getElementById('next').textContent; 
+            if(nextBtnContent == "Play Again") { 
+                test.totalScore = 0; 
+                test.currentQuestion = 0; 
+                test.score = 0; 
+                playTest();
+            }
+            
             test.currentQuestion = 0;
             test.score = 0;
             playTest();
