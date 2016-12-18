@@ -40,8 +40,8 @@ window.Intelligence = (function() {
          */
 
         "reset": function() {
-            var nextBtnContent = document.getElementById('next').textContent;
-            if(nextBtnContent.length > 0 && == "Play Again") {
+            var nextBtnContent = document.getElementById('next');
+            if(nextBtnContent != null && nextBtnContent.textContent == "Play Again") {
                 window.location.href=window.location.href;
             } else {
                 test.currentQuestion = 0;
