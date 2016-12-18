@@ -41,7 +41,7 @@ window.Intelligence = (function() {
 
         "reset": function() {
             var nextBtnContent = document.getElementById('next').textContent;
-            if(nextBtnContent == "Play Again") {
+            if(nextBtnContent.length > 0 && == "Play Again") {
                 window.location.href=window.location.href;
             } else {
                 test.currentQuestion = 0;
